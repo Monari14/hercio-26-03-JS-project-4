@@ -1,5 +1,11 @@
 let numero = prompt("Número: ");
-console.log(imprimirTabuada(numero));
+if(!isNaN(numero))
+{
+    console.log(imprimirTabuada(numero));
+}else{
+    console.log("sexooooooooo");
+}
+
 function imprimirTabuada(numero)
 {
     for (let i = 1; i <= 10; i++) 
