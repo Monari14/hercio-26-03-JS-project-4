@@ -3,7 +3,7 @@ if(!isNaN(numero))
 {
     console.log(imprimirTabuada(numero));
 }else{
-    console.log("sexooooooooo");
+    console.log("Digite um Número!");
 }
 
 function imprimirTabuada(numero)
