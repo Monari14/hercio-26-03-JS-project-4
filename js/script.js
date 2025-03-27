@@ -2,7 +2,9 @@ let numero = prompt("Número: ");
 if(!isNaN(numero))
 {
     console.log(imprimirTabuada(numero));
-}else{
+}
+else
+{
     console.log("Digite um Número!");
 }
 
